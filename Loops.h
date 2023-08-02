@@ -18,6 +18,8 @@ class Loops
 
         void RangeAutoFill();
 
+        void Iterator();
+
     private:
         int array[5] = {1,2,3,4,5};
 

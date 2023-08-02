@@ -7,6 +7,7 @@ Loops::Loops()
     ForLoop();
     RangeBase();
     RangeAutoFill();
+    Iterator();
 };
 
 Loops::~Loops()
@@ -50,3 +51,16 @@ void Loops::RangeAutoFill()
     }
     std::cout<<std::endl;
 }
+
+void Loops::Iterator()
+{
+    int *beg = std::begin(array);
+    int *end = std::end(array);
+
+    while(beg != end)
+    {
+        std::cout<< *beg << " ";
+        ++beg;
+    }
+    std::cout<<std::endl;
+};

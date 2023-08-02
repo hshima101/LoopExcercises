@@ -5,5 +5,5 @@
 int main()
 {
     Loops a1;
-    
+     
 }
